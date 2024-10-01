@@ -28,8 +28,8 @@ send data from raspi to pc using serial communication UART GPIO raspi and conver
 
 # "test send data to pc from raspi",
 
- 	"1": "connecting ATEN to RS232 converter, and USB connector from ATEN connect to PC",
-  	"2": "open [Powershell] in windows, type [[System.IO.Ports.SerialPort]::GetPortNames()] for check COM port active",
-   	"3": "open [Hercules] tools app, config serial [Name:COM4, Baud:9600, Data size:8, Parity:none, Handsake:OFF, Mode:Free],
-    	"4": "install pyserial (if you haven't already): [ pip install pyserial ]",
-   	"5": "run python script [ptyhon3 set_baud.py]"
+	"1": "connecting ATEN to RS232 converter, and USB connector from ATEN connect to PC",
+	"2": "open [Powershell] in windows, type [[System.IO.Ports.SerialPort]::GetPortNames()] for check COM port active",
+	"3": "open [Hercules] tools app, config serial [Name:COM4, Baud:9600, Data size:8, Parity:none, Handsake:OFF, Mode:Free],
+	"4": "install pyserial (if you haven't already): [ pip install pyserial ]",
+	"5": "run python script [ptyhon3 set_baud.py]"
