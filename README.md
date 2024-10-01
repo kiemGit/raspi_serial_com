@@ -1,13 +1,17 @@
 # raspi_serial_com
 send data from raspi to pc using serial communication UART GPIO raspi and converter RS232 anda ATEN
 
-# "config for activate serial communication UART GPIO,
+# "config for activate serial communication UART GPIO",
 		
-			"1": activate [sudo raspi-config],
-			"1": cek serial com port status [sudo nano /boot/config.txt], val: enable_uart=1,
-			"3": "(RS232) RXD  - (raspi) RXD0, UART (GPIO 15 - PIN 10)",
-			"4": "(RS232) VCC  - (raspi) 3V/5V (PIN 01 or PIN 02)"
-
+			"1": activate serial communication UART GPIO [sudo raspi-config],
+   			"2": select 3 Interface Options,
+      			"3": select I6 Serial Port,
+	 		"4": Would you like a login ....., press <No>.
+    			"5": Would you like the serial port hardware to be enabled?, press <Yes>,
+       			"6": Select <Finish>,
+       			"7": Reboot raspi,
+			"8": cek serial com port status [sudo nano /boot/config.txt], val: enable_uart=1,
+			
 # "wiring RS232 converter to rasberry",
 		
 			"1": "(RS232) GND  - (raspi) GND (PIN 06)",
