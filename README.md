@@ -32,4 +32,4 @@ send data from raspi to pc using serial communication UART GPIO raspi and conver
 	"2": "open [Powershell] in windows, type [[System.IO.Ports.SerialPort]::GetPortNames()] for check COM port active",
 	"3": "open [Hercules] tools app, config serial [Name:COM4, Baud:9600, Data size:8, Parity:none, Handsake:OFF, Mode:Free],
 	"4": "install pyserial (if you haven't already): [ pip install pyserial ]",
-	"5": "run python script [ptyhon3 set_baud.py]"
+	"5": "run python script [ptyhon3 serial_com_uart.py]"
