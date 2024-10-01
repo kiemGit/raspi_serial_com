@@ -1,5 +1,5 @@
 # raspi_serial_com
-send data from raspi to pc using serial communication UART GPIO raspi and converter RS232 anda ATEN
+send data from raspi to pc using serial communication UART GPIO raspi and converter RS232 to TTL and ATEN
 
 # "config for activate serial communication UART GPIO",
 		
@@ -14,7 +14,7 @@ send data from raspi to pc using serial communication UART GPIO raspi and conver
  	"9": [    1.603411] fe215040.serial: ttyS0 at MMIO 0xfe215040 (irq = 37, base_baud = 62500000) is a 16550,
 	"10": cek serial com port status [sudo nano /boot/config.txt], val: enable_uart=1,
 			
-# "wiring RS232 converter to rasberry",
+# "wiring RS232 to TTL converter to rasberry",
 		
 	"1": "(RS232) GND  - (raspi) GND (PIN 06)",
 	"2": "(RS232) TXD  - (raspi) TXD0, UART (GPIO 14 - PIN 08)",
