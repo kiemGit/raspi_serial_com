@@ -10,7 +10,15 @@ send data from raspi to pc using serial communication UART GPIO raspi and conver
 	+ click [CHOOSE STORAGE] 
 	+ select SD card you want to install raspberry pi OS
 	+ select [NEXT] button 
- 
+# configurasi ip address
+
+	+ sudo nano /etc/dhcpcd.conf
+ 	+ add script as bellow
+	        interface eth0  # or wlan0 for Wi-Fi
+	        static ip_address=192.168.1.100/24  # Replace with your desired static IP and subnet
+	        static routers=192.168.1.1          # Replace with your router's IP address
+	        static domain_name_servers=192.168.1.1 8.8.8.8  # Replace or add DNS servers (e.g., 8.8.8.8 for Google)
+	 
 # update rasberry pi
 
 	sudo apt update
