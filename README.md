@@ -1,5 +1,19 @@
 # raspi_serial_com
 send data from raspi to pc using serial communication UART GPIO raspi and converter RS232 to TTL and ATEN
+# install raspi using raspi imager (Internet Requirements)
+
+	+ click [CHOOSE DEVICE] 
+	+ select [Raspberry Pi3]
+	+ click [CHOOSE OS]
+	+ select [Raspberry Pi OS (other)]
+	+ select [Raspberry Pi OS (Legacy, 64-bit) lite]
+	+ click [CHOOSE STORAGE] 
+	+ select SD card you want to install raspberry pi OS
+	+ select [NEXT] button 
+ 
+# update rasberry pi
+
+	sudo apt update
 
 # "config for activate serial communication UART GPIO",
 		
